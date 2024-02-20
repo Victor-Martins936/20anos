@@ -14,12 +14,12 @@
     border: solid 1px red;
 } */
 
-body{
+body {
     background: #121212;
     cursor: default;
 }
 
-header{
+header {
     font-family: font-h;
     text-align: center;
     font-size: 1.8em;
@@ -29,23 +29,23 @@ header{
     margin-right: -8px;
 }
 
-.list{
+.list {
     grid-template-columns: repeat(3, 1fr);
 }
 
-h1{
+h1 {
     padding-top: 30px;
 }
 
-.header{
+.header {
     font-size: 1.5em;
     border: solid 5px #000000;
 }
 
-.script{
+.script {
     position: relative;
     bottom: -385px;
-    
+
     font-family: font-h;
     color: #dddddd;
     margin-left: -10px;
@@ -55,17 +55,18 @@ h1{
     padding: 10px 588px 10px 580px;
     text-decoration: none;
     cursor: pointer;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
 }
 
-.container{
+.container {
     position: relative;
     width: 320px;
     margin: 100px auto 0 auto;
     perspective: 900px;
 }
 
-.carrossel{
+.carrossel {
     position: absolute;
     margin-bottom: 90px;
     width: 100%;
@@ -74,7 +75,7 @@ h1{
     animation: rotate360 80s infinite forwards linear
 }
 
-.imagem{
+.imagem {
     position: absolute;
     width: 310px;
     height: 187px;
@@ -86,54 +87,63 @@ h1{
 }
 
 @keyframes rotate360 {
-    
-    from{
+
+    from {
         transform: rotateY(0deg);
     }
-    to{
+
+    to {
         transform: rotateY(-360deg);
     }
 
 }
 
-.imagem:nth-child(1){
+.imagem:nth-child(1) {
     background-image: url(fotin.png);
     transform: rotateY(0deg) translateZ(430px);
 }
-.imagem:nth-child(2){
+
+.imagem:nth-child(2) {
     background-image: url(https://storage.googleapis.com/static.meupc.net/wp/1/2021/04/td_html.jpg);
     transform: rotateY(40deg) translateZ(430px);
 }
-.imagem:nth-child(3){
+
+.imagem:nth-child(3) {
     background-image: url(https://neilpatel.com/wp-content/uploads/2017/12/10-tipos-de-codigos-html-web.jpeg);
     transform: rotateY(80deg) translateZ(430px);
 }
-.imagem:nth-child(4){
+
+.imagem:nth-child(4) {
     background-image: url(https://s.zst.com.br/cms-assets/2021/03/html-capa-1-.jpg);
     transform: rotateY(120deg) translateZ(430px);
 }
-.imagem:nth-child(5){
+
+.imagem:nth-child(5) {
     background-image: url(https://img.freepik.com/fotos-gratis/conceito-de-colagem-de-html-e-css_23-2150061955.jpg);
     transform: rotateY(160deg) translateZ(430px);
 }
-.imagem:nth-child(6){
+
+.imagem:nth-child(6) {
     background-image: url(fotin2.png);
     transform: rotateY(200deg) translateZ(430px);
 }
-.imagem:nth-child(7){
+
+.imagem:nth-child(7) {
     background-image: url(https://media.istockphoto.com/id/1386341272/pt/foto/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=612x612&w=0&k=20&c=ZwYuM4MWmEmfBrHhK7-BOe0-KrNZqJNOYb-1ZPIOBno=);
     transform: rotateY(240deg) translateZ(430px);
 }
-.imagem:nth-child(8){
+
+.imagem:nth-child(8) {
     background-image: url(https://img.freepik.com/fotos-gratis/colagem-de-fundo-de-programacao_23-2149901782.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1700524800&semt=ais);
     transform: rotateY(280deg) translateZ(430px);
 }
-.imagem:nth-child(9){
+
+.imagem:nth-child(9) {
     background-image: url(https://img.freepik.com/fotos-premium/fundo-de-tecnologia-abstrata-de-codigo-de-programacao-java_272306-149.jpg);
     transform: rotateY(320deg) translateZ(430px);
 }
 
-iframe{
+iframe {
     position: relative;
     left: 40px;
     top: 38em;
@@ -143,14 +153,15 @@ iframe{
     display: none;
 } */
 
-.introdução{
+.introdução {
     text-align: justify;
     color: #dddddd;
 }
 
-.introducaoh2{
+.introducaoh2 {
     font-family: font-h;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     position: relative;
     font-size: 2.7em;
     max-width: 700px;
@@ -158,9 +169,10 @@ iframe{
     left: 15em;
 }
 
-.introducaop{
+.introducaop {
     font-family: font-p;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     position: relative;
     font-size: 1.4em;
     max-width: 700px;
@@ -168,7 +180,7 @@ iframe{
     left: 29em;
 }
 
-.desinvolvimento{
+.desinvolvimento {
     color: #dddddd;
     position: relative;
     max-width: 402px;
@@ -176,7 +188,7 @@ iframe{
     padding-left: 40px;
 }
 
-.desinvolvimentoimg{
+.desinvolvimentoimg {
     position: relative;
     left: 1px;
     bottom: 1px;
@@ -184,22 +196,24 @@ iframe{
     height: 300px;
 }
 
-.desinvolvimentoh2{
+.desinvolvimentoh2 {
     font-family: font-h;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     font-size: 2.6em;
     max-width: 300px;
 }
 
-.desinvolvimentop{
+.desinvolvimentop {
     font-family: font-p;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     max-width: 480px;
     text-align: justify;
     font-size: 1.2em;
 }
 
-.desinvolvimento2{
+.desinvolvimento2 {
     color: #dddddd;
     position: relative;
     max-width: 402px;
@@ -207,28 +221,30 @@ iframe{
     padding-left: 40px;
 }
 
-.desinvolvimentoimg2{
+.desinvolvimentoimg2 {
     position: relative;
     width: 400px;
     height: 300px;
 }
 
-.desinvolvimentoh22{
+.desinvolvimentoh22 {
     font-family: font-h;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     font-size: 2.6em;
     max-width: 305px;
 }
 
-.desinvolvimentop2{
+.desinvolvimentop2 {
     font-family: font-p;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     text-align: justify;
     max-width: 480px;
     font-size: 1.2em;
 }
 
-.conclusão{
+.conclusão {
     color: #dddddd;
     position: relative;
     max-width: 402px;
@@ -236,34 +252,36 @@ iframe{
     padding-left: 40px;
 }
 
-.conclusãoimg{
+.conclusãoimg {
     position: relative;
     width: 400px;
     height: 300px;
 }
 
-.conclusãoh2{
+.conclusãoh2 {
     font-family: font-h;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     font-size: 2.6em;
     max-width: 200px;
 }
 
-.conclusãop{
+.conclusãop {
     font-family: font-p;
-    background: #aa00bc87;border: solid 5px #1f002396;
+    background: #aa00bc87;
+    border: solid 5px #1f002396;
     text-align: justify;
     max-width: 480px;
     font-size: 1.2em;
 }
 
-.lista{
+.lista {
     display: flex;
     flex-direction: row;
 }
 
 @media all and (max-width: 760px) {
-    .imagem{
+    .imagem {
         position: absolute;
         width: 210px;
         height: 187px;
@@ -273,12 +291,15 @@ iframe{
         background-size: cover;
         display: flex;
     }
-    .lista{
+
+    .lista {
         display: flex;
         flex-direction: column;
     }
 
-    header{
+
+
+    header {
         font-family: font-h;
         text-align: center;
         font-size: 1.3em;
@@ -288,142 +309,149 @@ iframe{
         margin-right: -8px;
     }
 
-    iframe{
+    iframe {
         position: relative;
         left: 4px;
         top: 38em;
         width: 90%;
-        
+
     }
 
-    .introdução{
+    .introdução {
         text-align: justify;
         color: #dddddd;
     }
-    
-    .introducaoh2{
+
+    .introducaoh2 {
         font-family: font-h;
-        background: #aa00bc87;border: solid 5px #1f002396;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
         position: relative;
         font-size: 1.7em;
         max-width: 700px;
         top: 22em;
         left: 1%;
     }
-    
-    .introducaop{
+
+    .introducaop {
         position: relative;
         font-family: font-p;
-        background: #aa00bc87;border: solid 5px #1f002396;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
         position: relative;
         font-size: 13px;
         max-width: 700px;
         top: 45em;
         left: 1%;
     }
-    
-    .desinvolvimento{
+
+    .desinvolvimento {
         color: #dddddd;
         position: relative;
         max-width: 402px;
         top: 37em;
         padding-left: 4px;
     }
-    
-    .desinvolvimentoimg{
+
+    .desinvolvimentoimg {
         position: relative;
         left: 1px;
         bottom: 1px;
         width: 300px;
         height: 200px;
     }
-    
-    .desinvolvimentoh2{
+
+    .desinvolvimentoh2 {
         font-family: font-h;
-        background: #aa00bc87;border: solid 5px #1f002396;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
         font-size: 1.9em;
         max-width: 300px;
     }
-    
-    .desinvolvimentop{
+
+    .desinvolvimentop {
         font-family: font-p;
-        background: #aa00bc87;border: solid 5px #1f002396;
-        max-width: 480px;
-        text-align: justify;
-        font-size: 15px;
-    }
-    
-    .desinvolvimento2{
-        color: #dddddd;
-        position: relative;
-        max-width: 402px;
-        top: 39em;
-        padding-left: 4px;
-    }
-    
-    .desinvolvimentoimg2{
-        position: relative;
-        width: 300px;
-        height: 200px;
-    }
-    
-    .desinvolvimentoh22{
-        font-family: font-h;
-        background: #aa00bc87;border: solid 5px #1f002396;
-        font-size: 1.9em;
-        max-width: 300px;
-    }
-    
-    .desinvolvimentop2{
-        font-family: font-p;
-        background: #aa00bc87;border: solid 5px #1f002396;
-        max-width: 480px;
-        text-align: justify;
-        font-size: 15px;
-    }
-    
-    .conclusão{
-        color: #dddddd;
-        position: relative;
-        max-width: 402px;
-        top: 39em;
-        padding-left: 4px;
-    }
-    
-    .conclusãoimg{
-        position: relative;
-        width: 300px;
-        height: 200px;
-    }
-    
-    .conclusãoh2{
-        font-family: font-h;
-        background: #aa00bc87;border: solid 5px #1f002396;
-        font-size: 1.9em;
-        max-width: 300px;
-    }
-    
-    .conclusãop{
-        font-family: font-p;
-        background: #aa00bc87;border: solid 5px #1f002396;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
         max-width: 480px;
         text-align: justify;
         font-size: 15px;
     }
 
-    .script{
+    .desinvolvimento2 {
+        color: #dddddd;
+        position: relative;
+        max-width: 402px;
+        top: 39em;
+        padding-left: 4px;
+    }
+
+    .desinvolvimentoimg2 {
+        position: relative;
+        width: 300px;
+        height: 200px;
+    }
+
+    .desinvolvimentoh22 {
+        font-family: font-h;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
+        font-size: 1.9em;
+        max-width: 300px;
+    }
+
+    .desinvolvimentop2 {
+        font-family: font-p;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
+        max-width: 480px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .conclusão {
+        color: #dddddd;
+        position: relative;
+        max-width: 402px;
+        top: 39em;
+        padding-left: 4px;
+    }
+
+    .conclusãoimg {
+        position: relative;
+        width: 300px;
+        height: 200px;
+    }
+
+    .conclusãoh2 {
+        font-family: font-h;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
+        font-size: 1.9em;
+        max-width: 300px;
+    }
+
+    .conclusãop {
+        font-family: font-p;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
+        max-width: 480px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .script {
         position: relative;
         top: 22em;
-        left: 1%;
         font-family: font-h;
         color: #dddddd;
-        margin-left: 3%;
         margin-bottom: 10px;
         font-size: 1.8em;
         border: none;
-        padding: 10px 50px 10px 50px;
+        padding: 10px 55px 10px 80px;
         text-decoration: none;
         cursor: pointer;
-        background: #aa00bc87;border: solid 5px #1f002396;
+        background: #aa00bc87;
+        border: solid 5px #1f002396;
     }
 }
